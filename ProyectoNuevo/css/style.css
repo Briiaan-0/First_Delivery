@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: chocolate;
+    padding: 20px;
+    margin: 0;
+}
+  
+.page{
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+    background-color: white;
+}
+
+header {
+    background-color: #ffb266;
+    padding: 15px;
+    margin: 20px;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+  
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+
+}
+  
+header nav ul li {
+    margin: 0 35px;
+    display: inline-block;
+}
+  
+header nav ul li a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+  
+footer {
+    background-color: #ffb266;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    font-weight: bold;
+}
+  
+.principal-title {
+    text-align: center;
+    margin: 30px 0;
+    color: black;
+    font-size: 36px;
+}
+  
+  
+.animes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+  
+.animes {
+    width: 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.animes img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+}
+  
+.animes h2 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: black;
+}
+  
+.animes p {
+    font-size: 18px;
+    color: black;
+}
+  
+.galery_1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+
+.descripcion {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.block img {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.block .content {
+    flex: 1;
+    text-align: center;
+}
+
+.recomends{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.recomends ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recomends ul li{
+    font-size: 34px;
+    color: black;
+    border-bottom: 1px solid #ccc;
+    transition: color 0.3s ease;
+}
+
+.recomends ul li:last-child{
+    border-bottom: none;
+}
+
+.recomends ul li:hover{
+    color: #e67e22;
+    cursor: pointer;
+}
+
+#recomends-text{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}

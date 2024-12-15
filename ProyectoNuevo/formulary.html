@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tus Animes</title>
+    <link rel="stylesheet" href="css/formulary.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="button">Inicio</a></li>
+                <li><a href="favorites.html">Favoritos</a></li>
+                <li><a href="mangas.html">Mangas</a></li>
+                <li><a href="formulary.html">Tus Animes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page">
+    
+        <div class="container">
+            <!-- Sección Izquierda: Formulario -->
+            <div class="form-section">
+                <h2>Deja tu Respuesta</h2>
+                <form id="responseForm">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" placeholder="Escribe tu nombre" required>
+
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" placeholder="Escribe tu correo" required>
+
+                    <label for="response">Tu Respuesta:</label>
+                    <textarea id="response" placeholder="Escribe tu respuesta" rows="4" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+
+            <!-- Sección Derecha: Mostrar Respuestas -->
+            <div class="response-section">
+                <h2>Respuestas</h2>
+                <ul id="responseList"></ul>
+            </div>
+        </div>
+    </section>
+    <script src="js/formulary.js"></script>
+</body>
+</html>
